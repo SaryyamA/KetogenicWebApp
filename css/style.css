@@ -1,0 +1,302 @@
+/**********************************************************
+/*                     Main Colors                
+#f3d1dc  -  #f6a7c1   -  #fcf0cf  -  #fdcf76  -  #b16e4b
+/**********************************************************/
+body {
+    background-color: #fcf0cf; 
+}
+
+main{
+    padding: 20px;
+    /* background-color: #fcecdc; */
+}
+/******************************************
+  /* Main Section | HEADER
+/*******************************************/
+header {
+    background-color: #fcbca494;
+    /* background:linear-gradient( #fcbca494 , rgba(244, 244, 244, 0.9)); */
+    background-image: url('../images/others/How-to-Start-Keto-Why-Cyclical-Ketosis-Is-Better_The-benefits-of-a-cyclical-keto-diet-are-752x401.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 3px ;
+    display: flex;
+    justify-content: center; 
+    padding: initial;
+    position: -webkit-sticky;
+    position: sticky;}
+.site-name
+{
+    display: flex;
+    justify-content:center;
+    font-family: Merriweather;
+    color: #fcf8f4;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    position: sticky;
+}
+#nav-bar  {
+    display: flex;
+    font-family:  Source Sans Pro;
+    color:rgb(95, 131, 119);
+    font-size: 20px;
+    padding-right: 10px;
+    }
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding: 8px;
+}
+    
+strong {
+    display: flex;
+    text-transform: uppercase;
+}
+h1{
+    margin: 0% !important;
+}
+  /******************************************
+  /* First Section | Keto Model
+  /*******************************************/
+
+.first-section {
+    display: grid;
+    grid-template-rows: 2;
+    justify-items: center;
+    margin: 30px;
+    color: #A13943;
+    font-family: 'Indie Flower', cursive;
+    margin: 30px;
+}
+#first-section p{
+
+font-family:  Source Sans Pro;
+}
+
+.fade-in{
+    background-color: #0095A8;
+    font-size: 20px;
+}
+/* .borders:last-child{
+    box-shadow:none;
+} */
+
+  /******************************************
+  /* Second Section | Keto Model
+  /*******************************************/
+#keto-model{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.sectionn-one-title{
+    color: #A13943;
+    font-family: 'Indie Flower', cursive;
+    justify-content: center;
+}
+.life-cycle {
+    color: #fcecdc;
+    display: grid;
+    width: 800px;
+    height: 600px;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 50% 50%;    
+    grid-template-columns: 25% 25% 25%;
+    margin-left: 150px;    
+
+}
+.sectionn-one-title{
+display: flex;
+}
+/* .container1 {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    clip-path: circle(40% at 50% 50%);
+    background-color: #b16e4b;
+    background-image: url('../images/others/1.jpg'); 
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+
+    } */
+.holder {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    clip-path: circle(50% at 50% 50%);
+    background-color: #ffffff;
+    background-image: url('../images/others/1111.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding: 20px;
+
+}
+
+ /* Styling for the life cycle circles */
+
+.first-c, .forth-c{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+.fifth-c, .eighth-c{
+    align-self: flex-start;
+    margin-top: 20px;
+}
+.second-c , .third-c  {
+margin-top: 25px;
+}
+.sixth-c , .seventh-c{
+margin-bottom: 25px;
+}
+.first-c,.fifth-c{
+    justify-self: flex-end;
+}
+.forth-c,.eighth-c{
+    justify-self: flex-start;
+
+}
+.first-c{
+background-image: url('../images/others/brainstorm\ \(1\).png'); 
+}
+.second-c{
+background-image: url('../images/others/keto-2.jpg'); 
+}
+.third-c{
+background-image: url('../images/others/glucose.PNG'); 
+}
+.forth-c{
+    background-image: url('../images/others/ketone-level.png'); 
+}
+.fifth-c{
+background-image: url('../images/others/ketone.PNG'); 
+}
+.sixth-c{
+    background-image: url('../images/others/liver.jpg'); 
+}
+.seventh-c{
+    background-image: url('../images/others/liver.jpg'); 
+}
+.eighth-c{
+    background-image: url('../images/others/لاخيغ2.PNG'); 
+}
+  /* Styling for the chapter number */
+  
+  span.chapter {
+      color: white;
+      padding: 5px 13px;
+      border-radius: 10px 0px;
+      margin-right: 10px;
+      font-size: 90%;
+  }
+  
+  .one {
+      background-color: #0095A8;
+  }
+  
+  .two {
+      background-color: #B53E8B;
+  }
+  
+  .three {
+      background-color: #44CBB4;
+  }
+  
+  .four {
+      background-color: #D64272;
+  }
+  
+  .five {
+      background-color: #0073A4;
+  }
+  
+  .six {
+      background-color: #A13943;
+  }
+  
+  /* Styling for plus sign */
+  .plus {
+      color: white;
+      width: 24px;
+      text-align: center;
+      border-radius: 10px 0px;
+      font-size: 115%;
+      margin-top: -2px;
+      margin-left: auto;
+      display: block;
+  }
+  
+  .plus:hover {
+      cursor: pointer;
+  }
+  
+  .is-minimised:before {
+      content: "+";
+  }
+  
+  .is-expanded:before {
+      content: "-";
+  }
+  
+  /* Styling for expanded content */
+  
+  .description {
+      width: 95%;
+  }
+  
+  .description img {
+      margin-bottom: 40px;
+  }
+/******************************************
+  /* ABOUT
+  /*******************************************/
+  .left h3:nth-of-type(1) {
+    border-bottom: 2px solid #0095A8;
+}
+.right h3:nth-of-type(1) {
+    border-bottom: 2px solid #D64272;
+}
+
+.contents h3 {
+    padding: 20px 0 3px 0;
+}
+
+h3 {
+    font-size: 1.375rem;
+    font-weight: 400;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/******************************************
+  /* Stylinh for the character
+  /*******************************************/
+.char {
+    display: flex;
+    justify-content: center;
+}
+.copyright{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../images/Outfit-Character/0B.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-color: rgb(216, 186, 186);
+    font-size: 20px;
+    position: absolute;
+}
