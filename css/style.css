@@ -52,13 +52,31 @@ header {
     }
 ul{
     display: flex;
+    list-style-type: none;
+    text-decoration: none;
+
 }
 
-li{
+li {
     list-style: none;
     padding: 8px;
 }
-    
+a{
+    text-decoration: none;
+}
+ /* Change the link color on hover */
+li a:hover {
+    background-color: #a9a9a9;
+    color: white;
+}   
+a:link, a:visited {
+    color: #a9a9a9 ;
+    text-decoration: none;
+    cursor: auto;
+  }
+ a:link:active, a:visited:active {
+    color: (internal value);
+}
 strong {
     display: flex;
     text-transform: uppercase;
@@ -325,7 +343,7 @@ h3 {
 }
 .copyright{
     display: flex;
-    width: 150px;
+    /* width: 150px;
     height: 150px;
     clip-path: circle(50% at 50% 50%);
     background-image: url('../images/Outfit-Character/0B.png');
@@ -334,5 +352,9 @@ h3 {
     background-size: cover;
     background-color: rgb(216, 186, 186);
     font-size: 20px;
-    position: absolute;
+    position: absolute; */
+    background-color: rgba(239, 239, 239, 0.568) ; 
+    position:fixed;
+    bottom: 0;
+    right:0;
 }
