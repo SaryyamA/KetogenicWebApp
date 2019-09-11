@@ -3,47 +3,40 @@
 #f3d1dc  -  #f6a7c1   -  #fcf0cf  -  #fdcf76  -  #b16e4b
 /**********************************************************/
 body {
-    background-color: rgb(239, 239, 239) ; 
+    background-color: #fcf0cf; 
 }
 
 main{
-    /* padding: 20px; */
+    padding: 20px;
     /* background-color: #fcecdc; */
 }
 /******************************************
   /* Main Section | HEADER
 /*******************************************/
 header {
-    display: flex;
-    background-color: #rgb(239, 239, 239) ;
+    background-color: #fcbca494;
     /* background:linear-gradient( #fcbca494 , rgba(244, 244, 244, 0.9)); */
-    height: 100vh;
-    width: 100%;
-
-}
-.page-header{
-    display: inline-block;
-    flex-direction: column;
-    height: 25%;
-    width: 100%;
-    justify-content: center;
-    align-self: center;
-    background-color: #caebf2  ;
-    position: fixed ;
-    width: 100%;
-}
+    background-image: url('../images/others/How-to-Start-Keto-Why-Cyclical-Ketosis-Is-Better_The-benefits-of-a-cyclical-keto-diet-are-752x401.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 3px ;
+    display: flex;
+    justify-content: center; 
+    padding: initial;
+    position: -webkit-sticky;
+    position: sticky;}
 .site-name
 {
     display: flex;
     justify-content:center;
-    color: #a9a9a9;
-    font-family: 'El Messiri', sans-serif;
+    font-family: Merriweather;
+    color: #fcf8f4;
+    font-family: 'Indie Flower', cursive;
     font-size: 30px;
     position: sticky;
 }
-.nav-bar  {
+#nav-bar  {
     display: flex;
-    justify-content:center;
     font-family:  Source Sans Pro;
     color:rgb(95, 131, 119);
     font-size: 20px;
@@ -51,31 +44,13 @@ header {
     }
 ul{
     display: flex;
-    list-style-type: none;
-    text-decoration: none;
-
 }
 
-li {
+li{
     list-style: none;
     padding: 8px;
 }
-a{
-    text-decoration: none;
-}
- /* Change the link color on hover */
-li a:hover {
-    background-color: #a9a9a9;
-    color: white;
-}   
-a:link, a:visited {
-    color: #a9a9a9 ;
-    text-decoration: none;
-    cursor: auto;
-  }
- a:link:active, a:visited:active {
-    color: (internal value);
-}
+    
 strong {
     display: flex;
     text-transform: uppercase;
@@ -83,131 +58,61 @@ strong {
 h1{
     margin: 0% !important;
 }
-.foods{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-.foodsUpper{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-bottom: 70px;
-}
-
-.foodsLower{
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: 70px;
-
-}
-.foods img  {
-    padding: 5px;
-}
-
   /******************************************
   /* First Section | Keto Model
   /*******************************************/
-  #section-1 {
-      margin: 30px;
-  }
 
 .first-section {
     display: grid;
-    grid-template-columns: 25% 75%;;
-    justify-content: center;
-    color: #438496b0;
-    font-family: 'El Messiri', sans-serif;
-    font-size: 45px;
-    font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.397);
-    margin-left:140px ;
-    padding: 20px;
-    width: 1130px;
-    height: 300px;
-    text-align: center;
-
+    grid-template-rows: 2;
+    justify-items: center;
+    margin: 30px;
+    color: #A13943;
+    font-family: 'Indie Flower', cursive;
+    margin: 30px;
 }
+#first-section p{
 
-.section-1-title{
-    font-family:  sans-serif;
-    font-size: 45px;
-    color: #43849688;
-    margin-right: 30px;
-    background-color: rgba(255, 255, 255, 0.397);
-    font-family: 'El Messiri', sans-serif;
-    justify-content: center;
-    padding: 20px;
-    
-    }
-.section-1-content{
-font-family:  sans-serif;
-font-size: 20px;
-color: #43849688;
-background-color: rgba(255, 255, 255, 0.397);
-font-family: 'El Messiri', sans-serif;
-justify-content: center;
-padding: 20px;
-
+font-family:  Source Sans Pro;
 }
-
 
 .fade-in{
     background-color: #0095A8;
     font-size: 20px;
 }
+/* .borders:last-child{
+    box-shadow:none;
+} */
+
   /******************************************
   /* Second Section | Keto Model
   /*******************************************/
-#section-2 {
+#keto-model{
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 30px;
-}
 
-.sectionn-tow-title{
-    font-family: 'El Messiri', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    font-size: 45px;
-    margin-right: 30px;
-    color: #438496b0;
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.397);
-    background-size: 100%;
-    height: 600px;
-    width: 300px;
+}
+.sectionn-one-title{
+    color: #A13943;
+    font-family: 'Indie Flower', cursive;
     justify-content: center;
-    align-items: center;
-
 }
-.second-section{
-display: flex;
-font-family: 'El Messiri', sans-serif;
-font-weight: bold;
-font-size: 45px;
-color: #438496b0;
-text-align: center;
-padding: 20px;
-background-color: rgba(255, 255, 255, 0.397);
-margin: 20px;
-}
-
 .life-cycle {
     color: #fcecdc;
     display: grid;
     width: 800px;
     height: 600px;
-    align-items: center;    
-    justify-content: center;
+    align-items: center;
+    justify-items: center;
     grid-template-rows: 50% 50%;    
     grid-template-columns: 25% 25% 25%;
-    background-color: rgba(255, 255, 255, 0.397);
+    margin-left: 150px;    
+
 }
-
-
+.sectionn-one-title{
+display: flex;
+}
 /* .container1 {
     display: flex;
     width: 180px;
@@ -218,88 +123,173 @@ margin: 20px;
     background-repeat: no-repeat;
     background-position:center;
     background-size: contain;
-    } */
 
+    } */
 .holder {
     display: flex;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     clip-path: circle(50% at 50% 50%);
-    background-color: #D9D9D9;
-    /* background-image: url('../images/others/1111.png'); */
+    background-color: #ffffff;
+    background-image: url('../images/others/1111.png');
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
     padding: 20px;
-}
 
-.new-bg{
-    text-align: center;
-    text-justify: auto;
-    color: #a9a9a9;
-    font-size: 20px;
-    font-weight: bold;
 }
 
  /* Styling for the life cycle circles */
 
-.first-c, .third-c{
+.first-c, .forth-c{
     align-self: flex-end;
     margin-bottom: 20px;
 }
-
-.forth-c, .sixth-c{
+.fifth-c, .eighth-c{
     align-self: flex-start;
     margin-top: 20px;
 }
-
 .second-c , .third-c  {
 margin-top: 25px;
 }
-
-.fifth-c , .seventh-c{
+.sixth-c , .seventh-c{
 margin-bottom: 25px;
 }
-
-.first-c,.forth-c{
+.first-c,.fifth-c{
     justify-self: flex-end;
 }
-
-.third-c,.sixth-c{
+.forth-c,.eighth-c{
     justify-self: flex-start;
-}
 
-.first-c-bg{
+}
+.first-c{
 background-image: url('../images/others/brainstorm\ \(1\).png'); 
 }
-
-.second-c-bg{
-background-image: url('../images/others/breakfast.png'); 
+.second-c{
+background-image: url('../images/others/keto-2.jpg'); 
 }
-
-.third-c-bg{
+.third-c{
+background-image: url('../images/others/glucose.PNG'); 
+}
+.forth-c{
     background-image: url('../images/others/ketone-level.png'); 
 }
-
-.forth-c-bg{
+.fifth-c{
 background-image: url('../images/others/ketone.PNG'); 
 }
-
-.fifth-c-bg{
+.sixth-c{
     background-image: url('../images/others/liver.jpg'); 
 }
-.sixth-c-bg{
-    background-image: url('../images/others/waist.png'); 
+.seventh-c{
+    background-image: url('../images/others/liver.jpg'); 
+}
+.eighth-c{
+    background-image: url('../images/others/لاخيغ2.PNG'); 
+}
+  /* Styling for the chapter number */
+  
+  span.chapter {
+      color: white;
+      padding: 5px 13px;
+      border-radius: 10px 0px;
+      margin-right: 10px;
+      font-size: 90%;
+  }
+  
+  .one {
+      background-color: #0095A8;
+  }
+  
+  .two {
+      background-color: #B53E8B;
+  }
+  
+  .three {
+      background-color: #44CBB4;
+  }
+  
+  .four {
+      background-color: #D64272;
+  }
+  
+  .five {
+      background-color: #0073A4;
+  }
+  
+  .six {
+      background-color: #A13943;
+  }
+  
+  /* Styling for plus sign */
+  .plus {
+      color: white;
+      width: 24px;
+      text-align: center;
+      border-radius: 10px 0px;
+      font-size: 115%;
+      margin-top: -2px;
+      margin-left: auto;
+      display: block;
+  }
+  
+  .plus:hover {
+      cursor: pointer;
+  }
+  
+  .is-minimised:before {
+      content: "+";
+  }
+  
+  .is-expanded:before {
+      content: "-";
+  }
+  
+  /* Styling for expanded content */
+  
+  .description {
+      width: 95%;
+  }
+  
+  .description img {
+      margin-bottom: 40px;
+  }
+/******************************************
+  /* ABOUT
+  /*******************************************/
+  .left h3:nth-of-type(1) {
+    border-bottom: 2px solid #0095A8;
+}
+.right h3:nth-of-type(1) {
+    border-bottom: 2px solid #D64272;
+}
+
+.contents h3 {
+    padding: 20px 0 3px 0;
+}
+
+h3 {
+    font-size: 1.375rem;
+    font-weight: 400;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 0;
 }
 
 /******************************************
   /* Stylinh for the character
   /*******************************************/
-
-  .char {
+.char {
     display: flex;
     justify-content: center;
-    /* width: 150px;
+}
+.copyright{
+    display: flex;
+    width: 150px;
     height: 150px;
     clip-path: circle(50% at 50% 50%);
     background-image: url('../images/Outfit-Character/0B.png');
@@ -308,93 +298,5 @@ background-image: url('../images/others/ketone.PNG');
     background-size: cover;
     background-color: rgb(216, 186, 186);
     font-size: 20px;
-    position: absolute; */
-    width: 150px;
-    height: 150px;
-    clip-path: circle(50% at 50% 50%);
-    position:fixed;
-    bottom: 0;
-    right:0;
-}
-  /******************************************
-  /* Third Section | Keto section-3-content
-  /*******************************************/
-.section-3{
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.397);
-    margin: 30px;
-    width: 1170px;
-}
-
-.third-section{
-    display: flex;
-    font-family: 'El Messiri', sans-serif;
-    font-weight: bold;
-    font-size: 45px;
-    color: #438496b0;
-    text-align: center;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.397);
-    margin: 20px;
-    }
-
-.section-3-title{
-    display: flex;
-    font-family: 'El Messiri', sans-serif;
-    font-weight: bold;
-    font-size: 45px;
-    color: #438496b0;
-    text-align: center;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.397);
-    margin: 20px;
-}
-.section-3-content{
-    display: grid;
-    grid-template-rows: 50%;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    justify-content:space-evenly ;
-    justify-content: center; 
-    padding: 20px; 
-    margin: 20px;
-    background-color:  rgba(255, 255, 255, 0.397);
-}
-
-.section-3-content div {
-    background-color: #caebf2;
-    border: 6px solid rgba(255, 255, 255, 0.397) ;
-    padding: 10px;
-    
-}
-.section-3-content p {
-    font-size: 15px;
-    font-weight: bold;
-    color: #a9a9a9;
-    text-align: center;
-    
-}
-
-.section-3-content span {
-    font-size: 15px;
-    color: #a9a9a9;
-    text-align: center;
-}
-button {
-    /* text-align: center;
-    margin: auto;
-    background-color: #f9e42e;
-    color: black;
-    font-family:'Oswald' , sans-serif;
-    padding: 10px 50px;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    font-weight: bolder;
-    box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);  */
-    border: none;
-    background-color: #caebf2;
-    background-image: url('../images/others/arrow.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 50px;
-    height: 20px;
+    position: absolute;
 }
